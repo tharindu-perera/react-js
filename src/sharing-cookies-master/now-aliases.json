@@ -1,0 +1,8 @@
+{
+  "rules" : [
+    { "pathname" : "/login", "dest" : "writer-XXX.now.sh" },
+    { "pathname" : "/increment", "dest" : "writer-XXX.now.sh" },
+    { "pathname" : "/logout", "dest" : "writer-XXX.now.sh" },
+    { "dest" : "reader-XXX.now.sh" }
+  ]
+}

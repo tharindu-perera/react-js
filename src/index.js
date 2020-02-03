@@ -1,12 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React  from 'react'
+import ReactDOM from 'react-dom'
+ // import './index.css'
+// import App from  './App'
+// import Table from "./Table";
+import Game from "./state-management/game-baord-state-management";
+// import  * as say  from "./All"
+// import {loadScript} from './callbacks'
+// import * as ss from './promise'
+// import  * as f from './fetchExample'
+// import * as api from  './promise-api'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// import "./prototypes";
+// import "./Cookies";
+// import "./websocket";
+// import "./Class";
+// import "./objectExample";
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// ReactDOM.render(<App/> ,document.getElementById("root"))
+
+
+//callback example
+// import {loadScript} from "./callbacks";
+
+// loadScript('https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js', aaa => alert(`${aaa.src}`) );
+
+//promise example
+
+ReactDOM.render(<Game/>,
+    document.getElementById('root')
+);
